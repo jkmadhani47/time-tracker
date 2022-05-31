@@ -18,7 +18,4 @@ import java.util.List;
 @ContextConfiguration(classes = TrackerCoreConfig.class)
 public class TrackerCoreConfigTest {
 
-    @Autowired
-    List<TimeEntry> entries;
-
 }
